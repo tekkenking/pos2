@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+
+@font-face {
+  font-family: 'open sans light';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url('../../fonts/open-sans/OpenSans-Light.ttf');
+
+}
+
+@font-face {
+  font-family: 'open sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('OpenSans'), local('OpenSans'), url('../../fonts/open-sans/OpenSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'lato light';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url('../../fonts/lato/Lato-Light.ttf');
+}
+
+@font-face {
+  font-family: 'lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato'), local('Lato'), url('../../fonts/lato/Lato-Regular.ttf');
+}
+
+
+/*@font-face {
+    font-family: "open sans";
+    src: url("../../fonts/open-sans/OpenSans-Regular.ttf");
+}
+@font-face {
+    font-family: "open sans light";
+    src: url("../../fonts/open-sans/OpenSans-Light.ttf");
+}
+
+@font-face {
+    font-family: "lato";
+    src: url("../../fonts/lato/Lato-Regular.ttf");
+}
+@font-face {
+    font-family: "lato light";
+    src: url("../../fonts/lato/Lato-Light.ttf");
+}*/

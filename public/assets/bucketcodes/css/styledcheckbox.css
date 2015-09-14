@@ -1,0 +1,28 @@
+@charset "UTF-8";
+* {
+}
+
+.styledcheckbox{
+	display: inline-block;
+	position: relative;
+	z-index: 1000;
+}
+
+.styledcheckbox input, .styledcheckbox .on{
+	display: none;
+}
+.styledcheckbox .off{
+	display: inline;
+}
+
+.styledcheckbox > input[checked="checked"] ~ .on{
+	display: inline !important;
+}
+
+.styledcheckbox > input[checked="checked"] ~ .off{
+	display: none !important;
+}
+
+.styledcheckbox, .styledcheckbox label{
+	cursor: pointer !important;
+}

@@ -1,0 +1,190 @@
+@charset "UTF-8";
+* {
+}
+
+#page-wrapper{}
+
+.footer.fixed{}
+
+.wrapper-content{
+	padding: 10px 0px 40px;
+}
+
+.navbar-form-custom .form-control{
+	background : #fff;
+	margin : 14px 0 0 15px;
+	height: 30px;
+}
+.nav-tabs.right-title > li{
+	float: left;
+}
+.nav-tabs.left-title > li{
+	float: right;
+}
+.nav-tabs.left-title > li.title{
+	left: 20px;
+}
+
+.nav-tabs.right-title > li.title{
+	right: 20px;
+}
+
+.label{
+	font-family: "lato";
+}
+
+.nav-tabs.right-title > li.title, .nav-tabs.left-title > li.title{
+	position:absolute; 
+	top:10px
+}
+
+.margin-top-20{
+	margin-top: 20px;
+}
+
+.tiny-margin-top{
+	margin-top: 5px;
+}
+
+.no-margin-bottom{
+	margin-bottom: 0; 
+}
+
+.main-cart-content{
+	overflow: auto;
+	height: 400px;
+}
+
+.title-bar-content{
+	position: absolute; 
+	top: -8px;
+}
+
+.full-width{
+	width: 100%;
+}
+
+.quantity_input{
+	width: 40px;
+}
+
+.cart-list{
+	border-bottom: 1px solid #e7eaec;
+	padding: 5px 0;
+}
+
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th{
+	border-top: none;
+}
+
+table.dataTable thead > tr > th, table.dataTable thead > tr > td{
+	padding-right: 10px;
+}
+
+.table-dark-head > thead > tr > th, .table-dark-head > thead > tr > td{
+	background: #565656;
+	color: #ffffff;
+}
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td{
+	vertical-align: bottom;
+}
+
+.text-white{
+	color : #fff !important;
+}
+
+.bg-primary{
+	background: #1ab394;
+}
+
+.bg-info{
+	background: #23c6c8;
+}
+
+.bg-danger{
+	background: #ed5565;
+}
+
+.bg-success{
+	background: #1c84c6;
+}
+
+.bg-warning{
+	background: #f8ac59;
+}
+
+.bg-default{
+	background: #c2c2c2;
+}
+
+.bg-inverse{
+	background: #293846;
+}
+
+/** FONT-SIZES **/
+.font-md, .font-15{
+	font-size: 15px;
+}
+.font-16{
+	font-size: 16px;
+}
+.fond-17{
+	font-size: 17px;
+}
+.font-18{
+	font-size: 18px;
+}
+.font-21, .font-lg{
+	font-size: 21px;
+}
+.font-24{
+	font-size: 24px;
+}
+.font-32{
+	font-size: 32px;
+}
+.font-48{
+	font-size: 48px;
+}
+.font-64{
+	font-size: 64px;
+}
+.font-size{
+	font-size: 96px;
+}
+
+/** TEXT CASE **/
+.text-capitalize{
+	text-transform: capitalize;
+}
+
+.text-uppercase{
+	text-transform: uppercase;
+}
+
+.text-lowercase{
+	text-transform: lowercase;
+}
+
+/** FORM **/
+.has-error {
+}
+.has-error:focus {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 6px #ce8483;
+}
+.has-error, .has-error:focus {
+    border-color: #a94442 !important;
+}
+.mesh-input-group *:first-child {
+    border-bottom: medium none !important;
+    border-radius: 5px 5px 0 0 !important;
+}
+.mesh-input-group *:last-child {
+    border-radius: 0 0 5px 5px;
+    margin-bottom: 10px;
+}
+.mesh-input-group input:not(:last-child) {
+    border-bottom: 0 none;
+    border-radius: 0;
+}
